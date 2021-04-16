@@ -17,6 +17,7 @@
 .jumbotron {
     .buy {
         font-size: $fontBig;
+        margin: 10px 0;
     }
 }
 
@@ -29,6 +30,7 @@
     border: 1px solid white;
     border-radius: $btnRadius;
     transition: all .13s ease;
+    margin: 10px 0;
 
     &:hover {
         background-color: white;

@@ -45,6 +45,7 @@ button {
 
 .jumbotron .buy {
   font-size: 22px;
+  margin: 10px 0;
 }
 
 .prova {
@@ -56,6 +57,7 @@ button {
   border: 1px solid white;
   border-radius: 16px;
   transition: all 0.13s ease;
+  margin: 10px 0;
 }
 .prova:hover {
   background-color: white;
