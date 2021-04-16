@@ -13,3 +13,25 @@
     }
 
 }
+
+.jumbotron {
+    .buy {
+        font-size: $fontBig;
+    }
+}
+
+.prova {
+    font-size: $fontBig;
+    background-color: transparent;
+    padding: 6px 14px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: $btnRadius;
+    transition: all .13s ease;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}

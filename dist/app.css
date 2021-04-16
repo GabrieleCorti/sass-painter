@@ -43,6 +43,25 @@ button {
   background-color: #0d66d0;
 }
 
+.jumbotron .buy {
+  font-size: 22px;
+}
+
+.prova {
+  font-size: 22px;
+  background-color: transparent;
+  padding: 6px 14px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 16px;
+  transition: all 0.13s ease;
+}
+.prova:hover {
+  background-color: white;
+  color: black;
+}
+
 .header_top {
   height: 60px;
   display: flex;
@@ -84,17 +103,53 @@ button {
 }
 
 .header_bot {
+  position: relative;
+  font-size: 14px;
+}
+.header_bot div {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
-.header_bot ul {
+.header_bot div ul {
   display: flex;
   align-items: center;
   height: 80px;
 }
-.header_bot ul li {
+.header_bot div ul li {
   padding: 18px;
+}
+
+.jumbotron {
+  height: 700px;
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding: 0 112px;
+}
+.jumbotron .clame {
+  width: 59%;
+}
+.jumbotron .clame div {
+  margin-bottom: 24px;
+}
+.jumbotron .clame div svg {
+  height: 64px;
+}
+.jumbotron .clame h1 {
+  font-size: 44px;
+  margin-bottom: 22px;
+}
+.jumbotron .clame p {
+  font-size: 22px;
+  margin-bottom: 22px;
 }
