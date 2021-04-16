@@ -25,6 +25,24 @@ ul {
   list-style: none;
 }
 
+button {
+  box-shadow: none;
+}
+
+.buy {
+  background-color: #1473e6;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #1473e6;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 16px;
+  transition: all 0.13 ease;
+}
+.buy:hover {
+  background-color: #0d66d0;
+}
+
 .header_top {
   height: 60px;
   display: flex;
@@ -70,6 +88,7 @@ ul {
   align-items: center;
   justify-content: center;
   color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
 }
 .header_bot ul {
   display: flex;

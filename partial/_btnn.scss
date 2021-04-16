@@ -1,0 +1,15 @@
+.buy {
+    background-color: $colorPrimary;
+    color: white;
+    font-weight: bold;
+    border: 1px solid $colorPrimary;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: $btnRadius;
+    transition: all 0.13 ease;
+
+    &:hover {
+        background-color: $colorPrimaryDark;
+    }
+
+}
