@@ -24,6 +24,7 @@ a {
 .header_top {
   height: 60px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   font-size: 14px;
@@ -49,4 +50,14 @@ a {
 }
 .header_top__menu ul li {
   padding: 0px 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header_top__menu ul li:hover {
+  background-color: #F5F5F5;
+}
+.header_top__find a:hover {
+  color: #1473e6;
 }

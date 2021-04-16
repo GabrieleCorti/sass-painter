@@ -1,6 +1,7 @@
 .header_top {
     height: 60px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     font-size: $fontSmall;
@@ -31,7 +32,21 @@
 
             li {
                 padding: 0px 20px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #F5F5F5;
+                }
             }
+        }
+    }
+
+    &__find {
+        a:hover {
+            color: $colorPrimary;
         }
     }
 
