@@ -1,0 +1,14 @@
+.header_bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7);
+    ul {
+        display: flex;
+        align-items: center;
+        height: 80px;
+        li {
+            padding: 18px;
+        }
+    }
+}

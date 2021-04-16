@@ -8,7 +8,7 @@
 /*All*/
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #1473e6;
+  /* background-color: $colorPrimary; */
 }
 
 img {
@@ -19,6 +19,10 @@ img {
 a {
   text-decoration: none;
   color: black;
+}
+
+ul {
+  list-style: none;
 }
 
 .header_top {
@@ -46,7 +50,6 @@ a {
 .header_top__menu ul {
   display: flex;
   align-items: center;
-  list-style: none;
 }
 .header_top__menu ul li {
   padding: 0px 20px;
@@ -60,4 +63,19 @@ a {
 }
 .header_top__find a:hover {
   color: #1473e6;
+}
+
+.header_bot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header_bot ul {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.header_bot ul li {
+  padding: 18px;
 }
