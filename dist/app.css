@@ -29,6 +29,10 @@ button {
   box-shadow: none;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .buy {
   background-color: #1473e6;
   color: white;
@@ -154,4 +158,29 @@ button {
 .jumbotron .clame p {
   font-size: 22px;
   margin-bottom: 22px;
+}
+
+.features_intro {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+}
+.features_intro h2 {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 9px;
+}
+.features_intro p {
+  color: black;
+  font-size: 18px;
+  display: inline-block;
+  width: 67%;
+  margin-bottom: 9px;
+}
+
+.feature_show {
+  margin: auto;
+}
+.feature_show div {
+  display: flex;
 }
