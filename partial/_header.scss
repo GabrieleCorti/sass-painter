@@ -1,0 +1,38 @@
+.header_top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: $fontSmall;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+
+        .logo__img_wrap {
+            width: 24px;
+        }
+
+        span {
+        color: $colorLogoAdobe;
+        font-size: $fontParag;
+        font-weight: bold;
+        margin-left: 8px;
+        }
+    }
+
+
+    &__menu {
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+
+            li {
+                padding: 0px 20px;
+            }
+        }
+    }
+
+}

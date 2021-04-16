@@ -1,0 +1,21 @@
+/*reset*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*All*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: $colorPrimary;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
