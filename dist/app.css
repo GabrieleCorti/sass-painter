@@ -8,7 +8,7 @@
 /*All*/
 body {
   font-family: "Ubuntu", sans-serif;
-  /* background-color: $colorPrimary; */
+  color: #2C2C2C;
 }
 
 img {
@@ -74,6 +74,7 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  font-weight: bold;
   font-size: 14px;
 }
 .header_top__logo {
@@ -136,6 +137,8 @@ p {
 .jumbotron {
   height: 700px;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -164,6 +167,7 @@ p {
   width: 100%;
   text-align: center;
   padding: 60px 0;
+  line-height: 1.5;
 }
 .features_intro h2 {
   font-size: 36px;
@@ -179,8 +183,36 @@ p {
 }
 
 .feature_show {
-  margin: auto;
+  line-height: 1.5;
 }
-.feature_show div {
+.feature_show .container {
+  margin: auto;
   display: flex;
+  width: 1270px;
+  padding-bottom: 100px;
+}
+.feature_show .container .img_container {
+  order: 1;
+}
+.feature_show .container .img_container.revers_img {
+  order: 2;
+}
+.feature_show .container .img_container img {
+  width: auto;
+}
+.feature_show .container .feature_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 2;
+  margin: 45px;
+}
+.feature_show .container .feature_info h3 {
+  font-size: 36px;
+}
+.feature_show .container .feature_info p {
+  font-size: 18px;
+}
+.feature_show .container .feature_info.reverse_features {
+  order: 1;
 }

@@ -1,6 +1,38 @@
 .feature_show {
-    margin: auto;
-    div {
-        display: flex;
+    
+    line-height: $lineH;
+    .container {
+       margin: auto;
+       display: flex;
+       width: 1270px;
+       padding-bottom: 100px;
+       .img_container {
+           order: 1;
+
+           &.revers_img {
+               order: 2;
+           }
+
+           img {
+               width: auto;
+           }
+       }
+       .feature_info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            order: 2;
+            margin: 45px;
+            h3 {
+                font-size: $fontMedium;
+            }
+            p {
+                font-size: $fontParag;
+            }
+
+            &.reverse_features {
+                order: 1;
+            }
+       }
     }
 }
